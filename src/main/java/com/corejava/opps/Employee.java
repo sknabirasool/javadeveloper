@@ -59,8 +59,11 @@ public class Employee {
     }
 
     public void display(){
-        System.out.println("Employee information");
-        System.out.println("EMP ID :"+id+ "EMP Name "+name+" age "+age+" salary "+salary);
+        System.out.println("Employee Information");
+        System.out.println("ID      : " + id);
+        System.out.println("Name    : " + name);
+        System.out.println("Age     : " + age);
+        System.out.println("Salary  : " + salary);
     }
 
     public static void main(String[] args) {
